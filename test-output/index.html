@@ -243,9 +243,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a4c8b31ca652218533f94ba67e3df8d2, findElement {value=//input[@type=&apos;submit&apos; and @value=&apos;Apply Now&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\cdkar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55515}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55515/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a4c8b31ca652218533f94ba67e3df8d2
+Command: [fddf8d5b2b5d4fb9b85738d25988214e, findElement {value=//input[@type=&apos;submit&apos; and @value=&apos;Apply Now&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\cdkar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56444}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56444/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fddf8d5b2b5d4fb9b85738d25988214e
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -453,58 +453,58 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validLogin')
-data.setCell(0, 2, 'test.LoginTest')
-data.setCell(0, 3, 4790);
+data.setCell(0, 1, 'registerProvidedUser')
+data.setCell(0, 2, 'test.RegisterTests')
+data.setCell(0, 3, 5667);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'navigationAndLogo')
-data.setCell(1, 2, 'test.NavigationUITest')
-data.setCell(1, 3, 3533);
+data.setCell(1, 1, 'requestLoanMissingInfo')
+data.setCell(1, 2, 'test.LoanRequestTest')
+data.setCell(1, 3, 3136);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'transferInsufficientBalance')
-data.setCell(2, 2, 'test.FundsTransferTest')
-data.setCell(2, 3, 2833);
+data.setCell(2, 1, 'validLogin')
+data.setCell(2, 2, 'test.LoginTest')
+data.setCell(2, 3, 2984);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'requestLoanMissingInfo')
-data.setCell(3, 2, 'test.LoanRequestTest')
-data.setCell(3, 3, 2554);
+data.setCell(3, 1, 'navigationAndLogo')
+data.setCell(3, 2, 'test.NavigationUITest')
+data.setCell(3, 3, 2938);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'validTransfer')
-data.setCell(4, 2, 'test.FundsTransferTest')
-data.setCell(4, 3, 2430);
+data.setCell(4, 1, 'requestLoanValid')
+data.setCell(4, 2, 'test.LoanRequestTest')
+data.setCell(4, 3, 2924);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'requestLoanValid')
-data.setCell(5, 2, 'test.LoanRequestTest')
-data.setCell(5, 3, 2340);
+data.setCell(5, 1, 'validTransfer')
+data.setCell(5, 2, 'test.FundsTransferTest')
+data.setCell(5, 3, 2818);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'registerProvidedUser')
-data.setCell(6, 2, 'test.RegisterTests')
-data.setCell(6, 3, 2084);
+data.setCell(6, 1, 'transferInsufficientBalance')
+data.setCell(6, 2, 'test.FundsTransferTest')
+data.setCell(6, 3, 2523);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'contactFormSubmitValid')
-data.setCell(7, 2, 'test.CustomerSupportTest')
-data.setCell(7, 3, 1877);
+data.setCell(7, 1, 'accountsOverviewAndTable')
+data.setCell(7, 2, 'test.AccountTest')
+data.setCell(7, 3, 2144);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'accountsOverviewAndTable')
-data.setCell(8, 2, 'test.AccountTest')
-data.setCell(8, 3, 1816);
+data.setCell(8, 1, 'contactFormEmpty')
+data.setCell(8, 2, 'test.CustomerSupportTest')
+data.setCell(8, 3, 1641);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'contactFormEmpty')
+data.setCell(9, 1, 'contactFormSubmitValid')
 data.setCell(9, 2, 'test.CustomerSupportTest')
-data.setCell(9, 3, 1504);
+data.setCell(9, 3, 1597);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'invalidPassword')
 data.setCell(10, 2, 'test.LoginTest')
-data.setCell(10, 3, 1457);
+data.setCell(10, 3, 1539);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'emptyFieldsLogin')
 data.setCell(11, 2, 'test.LoginTest')
-data.setCell(11, 3, 1314);
+data.setCell(11, 3, 1413);
 window.suiteTableData['ParaBankSuite']= { tableData: data, tableDiv: 'times-div-ParaBankSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <span class="suite-total-time">Total running time: 31 seconds</span>
               <div id="times-div-ParaBankSuite">
               </div> <!-- times-div-ParaBankSuite -->
             </div> <!-- times-div -->
@@ -525,9 +525,9 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">test.NavigationUITest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">beforeSuite</span>
-                <br/>
                 <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -543,9 +543,9 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">test.FundsTransferTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">afterSuite</span>
-                <br/>
                 <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -561,18 +561,18 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">test.LoanRequestTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">afterSuite</span>
-                <br/>
                 <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">test.LoginTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">beforeSuite</span>
-                <br/>
                 <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -590,183 +590,183 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">198 ms</span>
+                <span class="method-name">setUp(public void test.RegisterTests.registerProvidedUser())</span>
+                <span class="method-start">223 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registerProvidedUser</span>
-                <span class="method-start">6585 ms</span>
+                <span class="method-start">6797 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">8674 ms</span>
+                <span class="method-name">tearDown([TestResult name=registerProvidedUser status=SUCCESS method=RegisterTests.registerProvidedUser()[pri...)</span>
+                <span class="method-start">12470 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">8817 ms</span>
+                <span class="method-name">setUp(public void test.LoginTest.validLogin())</span>
+                <span class="method-start">12681 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validLogin</span>
-                <span class="method-start">10014 ms</span>
+                <span class="method-start">18086 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">14805 ms</span>
+                <span class="method-name">tearDown([TestResult name=validLogin status=SUCCESS method=LoginTest.validLogin()[pri:2, instance:test.LoginT...)</span>
+                <span class="method-start">21072 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">14954 ms</span>
+                <span class="method-name">setUp(public void test.LoginTest.invalidPassword())</span>
+                <span class="method-start">21181 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">invalidPassword</span>
-                <span class="method-start">18354 ms</span>
+                <span class="method-start">24505 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">19812 ms</span>
+                <span class="method-name">tearDown([TestResult name=invalidPassword status=FAILURE method=LoginTest.invalidPassword()[pri:3, instance:t...)</span>
+                <span class="method-start">26045 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">19947 ms</span>
+                <span class="method-name">setUp(public void test.LoginTest.emptyFieldsLogin())</span>
+                <span class="method-start">26325 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">emptyFieldsLogin</span>
-                <span class="method-start">23324 ms</span>
+                <span class="method-start">30046 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">24642 ms</span>
+                <span class="method-name">tearDown([TestResult name=emptyFieldsLogin status=SUCCESS method=LoginTest.emptyFieldsLogin()[pri:4, instance...)</span>
+                <span class="method-start">31459 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.AccountTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">24771 ms</span>
+                <span class="method-name">setUp(public void test.AccountTest.accountsOverviewAndTable())</span>
+                <span class="method-start">31613 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">accountsOverviewAndTable</span>
-                <span class="method-start">27420 ms</span>
+                <span class="method-start">35244 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">29237 ms</span>
+                <span class="method-name">tearDown([TestResult name=accountsOverviewAndTable status=SUCCESS method=AccountTest.accountsOverviewAndTable...)</span>
+                <span class="method-start">37389 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.FundsTransferTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">29355 ms</span>
+                <span class="method-name">setUp(public void test.FundsTransferTest.validTransfer())</span>
+                <span class="method-start">37532 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">validTransfer</span>
-                <span class="method-start">32019 ms</span>
+                <span class="method-start">40708 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">34451 ms</span>
+                <span class="method-name">tearDown([TestResult name=validTransfer status=FAILURE method=FundsTransferTest.validTransfer()[pri:6, instan...)</span>
+                <span class="method-start">43527 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">34582 ms</span>
+                <span class="method-name">setUp(public void test.FundsTransferTest.transferInsufficientBalance())</span>
+                <span class="method-start">43791 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">transferInsufficientBalance</span>
-                <span class="method-start">38021 ms</span>
+                <span class="method-start">47767 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">40855 ms</span>
+                <span class="method-name">tearDown([TestResult name=transferInsufficientBalance status=FAILURE method=FundsTransferTest.transferInsuffi...)</span>
+                <span class="method-start">50291 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.LoanRequestTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">40960 ms</span>
+                <span class="method-name">setUp(public void test.LoanRequestTest.requestLoanValid())</span>
+                <span class="method-start">50597 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">requestLoanValid</span>
-                <span class="method-start">44165 ms</span>
+                <span class="method-start">53961 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">46506 ms</span>
+                <span class="method-name">tearDown([TestResult name=requestLoanValid status=FAILURE method=LoanRequestTest.requestLoanValid()[pri:8, in...)</span>
+                <span class="method-start">56886 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">46651 ms</span>
+                <span class="method-name">setUp(public void test.LoanRequestTest.requestLoanMissingInfo())</span>
+                <span class="method-start">57166 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">requestLoanMissingInfo</span>
-                <span class="method-start">49870 ms</span>
+                <span class="method-start">60124 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">52425 ms</span>
+                <span class="method-name">tearDown([TestResult name=requestLoanMissingInfo status=FAILURE method=LoanRequestTest.requestLoanMissingInfo...)</span>
+                <span class="method-start">63263 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.CustomerSupportTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">52530 ms</span>
+                <span class="method-name">setUp(public void test.CustomerSupportTest.contactFormSubmitValid())</span>
+                <span class="method-start">63545 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">contactFormSubmitValid</span>
-                <span class="method-start">56052 ms</span>
+                <span class="method-start">68092 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">57930 ms</span>
+                <span class="method-name">tearDown([TestResult name=contactFormSubmitValid status=SUCCESS method=CustomerSupportTest.contactFormSubmitV...)</span>
+                <span class="method-start">69690 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">58077 ms</span>
+                <span class="method-name">setUp(public void test.CustomerSupportTest.contactFormEmpty())</span>
+                <span class="method-start">69834 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">contactFormEmpty</span>
-                <span class="method-start">61249 ms</span>
+                <span class="method-start">73494 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">62754 ms</span>
+                <span class="method-name">tearDown([TestResult name=contactFormEmpty status=SUCCESS method=CustomerSupportTest.contactFormEmpty()[pri:1...)</span>
+                <span class="method-start">75136 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.NavigationUITest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">62898 ms</span>
+                <span class="method-name">setUp(public void test.NavigationUITest.navigationAndLogo())</span>
+                <span class="method-start">75272 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">navigationAndLogo</span>
-                <span class="method-start">66504 ms</span>
+                <span class="method-start">78635 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">70038 ms</span>
+                <span class="method-name">tearDown([TestResult name=navigationAndLogo status=SUCCESS method=NavigationUITest.navigationAndLogo()[pri:12...)</span>
+                <span class="method-start">81575 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.RegisterTests</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">70179 ms</span>
+                <span class="method-start">81788 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

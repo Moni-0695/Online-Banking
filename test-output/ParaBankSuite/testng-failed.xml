@@ -5,8 +5,8 @@
     <classes>
       <class name="test.FundsTransferTest">
         <methods>
-          <include name="setUp"/>
           <include name="validTransfer"/>
+          <include name="setUp"/>
           <include name="tearDown"/>
           <include name="beforeSuite"/>
           <include name="afterSuite"/>
