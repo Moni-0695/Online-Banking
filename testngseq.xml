@@ -1,0 +1,13 @@
+<suite name="ParaBankSuite" verbose="1" parallel="false">
+  <test name="SequentialTests">
+    <classes>
+      <class name="test.RegisterTests"/>
+      <class name="test.LoginTest"/>
+      <class name="test.AccountTest"/>
+      <class name="test.FundsTransferTest"/>
+      <class name="test.LoanRequestTest"/>
+      <class name="test.CustomerSupportTest"/>
+      <class name="test.NavigationUITest"/>
+    </classes>
+  </test>
+</suite>
