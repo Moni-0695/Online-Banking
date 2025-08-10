@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
 <suite name="Failed suite [ParaBankSuite]">
   <test thread-count="5" name="SequentialTests(failed)">
     <classes>
@@ -13,25 +12,6 @@
           <include name="transferInsufficientBalance"/>
         </methods>
       </class> <!-- test.FundsTransferTest -->
-      <class name="test.LoanRequestTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="requestLoanValid"/>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
-          <include name="requestLoanMissingInfo"/>
-        </methods>
-      </class> <!-- test.LoanRequestTest -->
-      <class name="test.LoginTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
-          <include name="invalidPassword"/>
-        </methods>
-      </class> <!-- test.LoginTest -->
     </classes>
   </test> <!-- SequentialTests(failed) -->
 </suite> <!-- Failed suite [ParaBankSuite] -->

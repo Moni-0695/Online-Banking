@@ -13,25 +13,6 @@
           <include name="transferInsufficientBalance"/>
         </methods>
       </class> <!-- test.FundsTransferTest -->
-      <class name="test.LoanRequestTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="requestLoanValid"/>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
-          <include name="requestLoanMissingInfo"/>
-        </methods>
-      </class> <!-- test.LoanRequestTest -->
-      <class name="test.LoginTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
-          <include name="invalidPassword"/>
-        </methods>
-      </class> <!-- test.LoginTest -->
     </classes>
   </test> <!-- SequentialTests(failed) -->
 </suite> <!-- Failed suite [ParaBankSuite] -->

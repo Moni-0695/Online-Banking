@@ -1,6 +1,5 @@
 package test;
 import base.BaseTest;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import page.LoginPage;
@@ -12,6 +11,7 @@ public class FundsTransferTest extends BaseTest {
     @Test(priority = 6)
     public void validTransfer() {
         test = extent.createTest("Funds Transfer - Valid");
+
         driver.get("https://parabank.parasoft.com/parabank/index.htm");
         LoginPage login = new LoginPage(driver);
         login.enterUsername("parabank123");
@@ -22,16 +22,16 @@ public class FundsTransferTest extends BaseTest {
         TransferFundsPage tf = new TransferFundsPage(driver);
         tf.open();
 
-        // pick first available visible options for from/to
-        String fromOption = driver.findElement(By.id("fromAccountId")).getText().split("\n")[0].trim();
-        String toOption = driver.findElement(By.id("toAccountId")).getText().split("\n")[0].trim();
+        WaitUtil.waitForUrlContains(driver, "transfer.htm", 10);
 
-        tf.selectFrom(fromOption);
-        tf.selectTo(toOption);
+        System.out.println("Current URL: " + driver.getCurrentUrl());
+        System.out.println("Page source snippet:\n" + driver.getPageSource().substring(0, 500));
+
+        tf.selectFromByValue("14343");
+        tf.selectToByValue("14454");
         tf.setAmount("1");
         tf.clickTransfer();
 
-        // check confirmation text or right panel message
         String conf = tf.getConfirmation();
         test.info("Transfer response: " + conf);
         Assert.assertTrue(conf.length() > 0, "Expect confirmation or feedback after transfer");
@@ -41,6 +41,7 @@ public class FundsTransferTest extends BaseTest {
     @Test(priority = 7)
     public void transferInsufficientBalance() {
         test = extent.createTest("Funds Transfer - Insufficient");
+
         driver.get("https://parabank.parasoft.com/parabank/index.htm");
         LoginPage login = new LoginPage(driver);
         login.enterUsername("parabank123");
@@ -51,12 +52,14 @@ public class FundsTransferTest extends BaseTest {
         TransferFundsPage tf = new TransferFundsPage(driver);
         tf.open();
 
-        String fromOption = driver.findElement(By.id("fromAccountId")).getText().split("\n")[0].trim();
-        String toOption = driver.findElement(By.id("toAccountId")).getText().split("\n")[0].trim();
+        WaitUtil.waitForUrlContains(driver, "transfer.htm", 10);
 
-        tf.selectFrom(fromOption);
-        tf.selectTo(toOption);
-        tf.setAmount("999999999"); // big amount to trigger insufficient
+        System.out.println("Current URL: " + driver.getCurrentUrl());
+        System.out.println("Page source snippet:\n" + driver.getPageSource().substring(0, 500));
+
+        tf.selectFromByValue("14343");
+        tf.selectToByValue("14454");
+        tf.setAmount("999999999"); // big amount to trigger insufficient balance error
         tf.clickTransfer();
 
         String conf = tf.getConfirmation();

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-ParaBankSuite" class="navigator-link">
-              <span class="suite-name border-skipped">ParaBankSuite</span>
+              <span class="suite-name border-failed">ParaBankSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,76 +92,85 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">12 methods,  12 skipped,  </span>
+                    <span class="method-stats">12 methods, 2 failed,   10 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-ParaBankSuite" class="hide-methods skipped suite-ParaBankSuite"> (hide)</a> <!-- hide-methods skipped suite-ParaBankSuite -->
-                      <a href="#" panel-name="suite-ParaBankSuite" class="show-methods skipped suite-ParaBankSuite"> (show)</a> <!-- show-methods skipped suite-ParaBankSuite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ParaBankSuite" class="hide-methods failed suite-ParaBankSuite"> (hide)</a> <!-- hide-methods failed suite-ParaBankSuite -->
+                      <a href="#" panel-name="suite-ParaBankSuite" class="show-methods failed suite-ParaBankSuite"> (show)</a> <!-- show-methods failed suite-ParaBankSuite -->
                     </span>
-                    <div class="method-list-content skipped suite-ParaBankSuite">
+                    <div class="method-list-content failed suite-ParaBankSuite">
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParaBankSuite" title="test.AccountTest" class="method navigator-link" hash-for-method="accountsOverviewAndTable">accountsOverviewAndTable</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParaBankSuite" title="test.CustomerSupportTest" class="method navigator-link" hash-for-method="contactFormEmpty">contactFormEmpty</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParaBankSuite" title="test.CustomerSupportTest" class="method navigator-link" hash-for-method="contactFormSubmitValid">contactFormSubmitValid</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParaBankSuite" title="test.LoginTest" class="method navigator-link" hash-for-method="emptyFieldsLogin">emptyFieldsLogin</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParaBankSuite" title="test.LoginTest" class="method navigator-link" hash-for-method="invalidPassword">invalidPassword</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParaBankSuite" title="test.NavigationUITest" class="method navigator-link" hash-for-method="navigationAndLogo">navigationAndLogo</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParaBankSuite" title="test.RegisterTests" class="method navigator-link" hash-for-method="registerProvidedUser">registerProvidedUser</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParaBankSuite" title="test.LoanRequestTest" class="method navigator-link" hash-for-method="requestLoanMissingInfo">requestLoanMissingInfo</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParaBankSuite" title="test.LoanRequestTest" class="method navigator-link" hash-for-method="requestLoanValid">requestLoanValid</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-ParaBankSuite" title="test.FundsTransferTest" class="method navigator-link" hash-for-method="transferInsufficientBalance">transferInsufficientBalance</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParaBankSuite" title="test.LoginTest" class="method navigator-link" hash-for-method="validLogin">validLogin</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-ParaBankSuite" title="test.FundsTransferTest" class="method navigator-link" hash-for-method="validTransfer">validTransfer</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-ParaBankSuite -->
+                    </div> <!-- method-list-content failed suite-ParaBankSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ParaBankSuite" class="hide-methods passed suite-ParaBankSuite"> (hide)</a> <!-- hide-methods passed suite-ParaBankSuite -->
+                      <a href="#" panel-name="suite-ParaBankSuite" class="show-methods passed suite-ParaBankSuite"> (show)</a> <!-- show-methods passed suite-ParaBankSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-ParaBankSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParaBankSuite" title="test.AccountTest" class="method navigator-link" hash-for-method="accountsOverviewAndTable">accountsOverviewAndTable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParaBankSuite" title="test.CustomerSupportTest" class="method navigator-link" hash-for-method="contactFormEmpty">contactFormEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParaBankSuite" title="test.CustomerSupportTest" class="method navigator-link" hash-for-method="contactFormSubmitValid">contactFormSubmitValid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParaBankSuite" title="test.LoginTest" class="method navigator-link" hash-for-method="emptyFieldsLogin">emptyFieldsLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParaBankSuite" title="test.LoginTest" class="method navigator-link" hash-for-method="invalidPassword">invalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParaBankSuite" title="test.NavigationUITest" class="method navigator-link" hash-for-method="navigationAndLogo">navigationAndLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParaBankSuite" title="test.RegisterTests" class="method navigator-link" hash-for-method="registerProvidedUser">registerProvidedUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParaBankSuite" title="test.LoanRequestTest" class="method navigator-link" hash-for-method="requestLoanMissingInfo">requestLoanMissingInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParaBankSuite" title="test.LoanRequestTest" class="method navigator-link" hash-for-method="requestLoanValid">requestLoanValid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParaBankSuite" title="test.LoginTest" class="method navigator-link" hash-for-method="validLogin">validLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ParaBankSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -173,150 +182,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-ParaBankSuite" class="panel ParaBankSuite">
-          <div class="suite-ParaBankSuite-class-skipped">
+          <div class="suite-ParaBankSuite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">test.LoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="emptyFieldsLogin">
-                  </a> <!-- emptyFieldsLogin -->
-                  <span class="method-name">emptyFieldsLogin</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)&quot; because &quot;this.test&quot; is null
-	at base.BaseTest.tearDown(BaseTest.java:48)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="invalidPassword">
-                  </a> <!-- invalidPassword -->
-                  <span class="method-name">invalidPassword</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)&quot; because &quot;this.test&quot; is null
-	at base.BaseTest.tearDown(BaseTest.java:48)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validLogin">
-                  </a> <!-- validLogin -->
-                  <span class="method-name">validLogin</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest, Method, Object[], ITestResult&gt; into a @BeforeMethod annotated setUp.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-ParaBankSuite-class-skipped -->
-          <div class="suite-ParaBankSuite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">test.AccountTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="accountsOverviewAndTable">
-                  </a> <!-- accountsOverviewAndTable -->
-                  <span class="method-name">accountsOverviewAndTable</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest, Method, Object[], ITestResult&gt; into a @BeforeMethod annotated setUp.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-ParaBankSuite-class-skipped -->
-          <div class="suite-ParaBankSuite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">test.NavigationUITest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="navigationAndLogo">
-                  </a> <!-- navigationAndLogo -->
-                  <span class="method-name">navigationAndLogo</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest, Method, Object[], ITestResult&gt; into a @BeforeMethod annotated setUp.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-ParaBankSuite-class-skipped -->
-          <div class="suite-ParaBankSuite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">test.CustomerSupportTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="contactFormEmpty">
-                  </a> <!-- contactFormEmpty -->
-                  <span class="method-name">contactFormEmpty</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)&quot; because &quot;this.test&quot; is null
-	at base.BaseTest.tearDown(BaseTest.java:48)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="contactFormSubmitValid">
-                  </a> <!-- contactFormSubmitValid -->
-                  <span class="method-name">contactFormSubmitValid</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest, Method, Object[], ITestResult&gt; into a @BeforeMethod annotated setUp.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-ParaBankSuite-class-skipped -->
-          <div class="suite-ParaBankSuite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">test.RegisterTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="registerProvidedUser">
-                  </a> <!-- registerProvidedUser -->
-                  <span class="method-name">registerProvidedUser</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest, Method, Object[], ITestResult&gt; into a @BeforeMethod annotated setUp.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-ParaBankSuite-class-skipped -->
-          <div class="suite-ParaBankSuite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="failed.png"/>
               <span class="class-name">test.FundsTransferTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -325,10 +193,36 @@ For more information on native dependency injection please refer to https://test
                   <a name="transferInsufficientBalance">
                   </a> <!-- transferInsufficientBalance -->
                   <span class="method-name">transferInsufficientBalance</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest, Method, Object[], ITestResult&gt; into a @BeforeMethod annotated setUp.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: fromAccountID (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at page.TransferFundsPage.selectFromByValue(TransferFundsPage.java:54)
+	at test.FundsTransferTest.transferInsufficientBalance(FundsTransferTest.java:53)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#fromAccountID&quot;}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0832cfe9d35bfb8ad34a3cdc4e3788df, findElement {using=id, value=fromAccountID}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\cdkar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60985}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60985/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0832cfe9d35bfb8ad34a3cdc4e3788df
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 32 more
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -338,19 +232,141 @@ For more information on native dependency injection please refer to https://test
                   <a name="validTransfer">
                   </a> <!-- validTransfer -->
                   <span class="method-name">validTransfer</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest, Method, Object[], ITestResult&gt; into a @BeforeMethod annotated setUp.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: fromAccountID (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at page.TransferFundsPage.selectFromByValue(TransferFundsPage.java:54)
+	at test.FundsTransferTest.validTransfer(FundsTransferTest.java:26)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#fromAccountID&quot;}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e0624cc939b843847b1e17d6f7439086, findElement {using=id, value=fromAccountID}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\cdkar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60958}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60958/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0624cc939b843847b1e17d6f7439086
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 32 more
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-ParaBankSuite-class-skipped -->
-          <div class="suite-ParaBankSuite-class-skipped">
+          </div> <!-- suite-ParaBankSuite-class-failed -->
+          <div class="suite-ParaBankSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
+              <span class="class-name">test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyFieldsLogin">
+                  </a> <!-- emptyFieldsLogin -->
+                  <span class="method-name">emptyFieldsLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidPassword">
+                  </a> <!-- invalidPassword -->
+                  <span class="method-name">invalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLogin">
+                  </a> <!-- validLogin -->
+                  <span class="method-name">validLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParaBankSuite-class-passed -->
+          <div class="suite-ParaBankSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.AccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="accountsOverviewAndTable">
+                  </a> <!-- accountsOverviewAndTable -->
+                  <span class="method-name">accountsOverviewAndTable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParaBankSuite-class-passed -->
+          <div class="suite-ParaBankSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.NavigationUITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigationAndLogo">
+                  </a> <!-- navigationAndLogo -->
+                  <span class="method-name">navigationAndLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParaBankSuite-class-passed -->
+          <div class="suite-ParaBankSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.CustomerSupportTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactFormEmpty">
+                  </a> <!-- contactFormEmpty -->
+                  <span class="method-name">contactFormEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactFormSubmitValid">
+                  </a> <!-- contactFormSubmitValid -->
+                  <span class="method-name">contactFormSubmitValid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParaBankSuite-class-passed -->
+          <div class="suite-ParaBankSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.RegisterTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerProvidedUser">
+                  </a> <!-- registerProvidedUser -->
+                  <span class="method-name">registerProvidedUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParaBankSuite-class-passed -->
+          <div class="suite-ParaBankSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">test.LoanRequestTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -359,12 +375,6 @@ For more information on native dependency injection please refer to https://test
                   <a name="requestLoanMissingInfo">
                   </a> <!-- requestLoanMissingInfo -->
                   <span class="method-name">requestLoanMissingInfo</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest, Method, Object[], ITestResult&gt; into a @BeforeMethod annotated setUp.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -372,16 +382,10 @@ For more information on native dependency injection please refer to https://test
                   <a name="requestLoanValid">
                   </a> <!-- requestLoanValid -->
                   <span class="method-name">requestLoanValid</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest, Method, Object[], ITestResult&gt; into a @BeforeMethod annotated setUp.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-ParaBankSuite-class-skipped -->
+          </div> <!-- suite-ParaBankSuite-class-passed -->
         </div> <!-- panel ParaBankSuite -->
         <div panel-name="test-xml-ParaBankSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -442,58 +446,58 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validLogin')
-data.setCell(0, 2, 'test.LoginTest')
-data.setCell(0, 3, 1);
+data.setCell(0, 1, 'requestLoanMissingInfo')
+data.setCell(0, 2, 'test.LoanRequestTest')
+data.setCell(0, 3, 14450);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'requestLoanValid')
-data.setCell(1, 2, 'test.LoanRequestTest')
-data.setCell(1, 3, 0);
+data.setCell(1, 1, 'validTransfer')
+data.setCell(1, 2, 'test.FundsTransferTest')
+data.setCell(1, 3, 13919);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'contactFormEmpty')
-data.setCell(2, 2, 'test.CustomerSupportTest')
-data.setCell(2, 3, 0);
+data.setCell(2, 1, 'transferInsufficientBalance')
+data.setCell(2, 2, 'test.FundsTransferTest')
+data.setCell(2, 3, 13537);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'requestLoanMissingInfo')
+data.setCell(3, 1, 'requestLoanValid')
 data.setCell(3, 2, 'test.LoanRequestTest')
-data.setCell(3, 3, 0);
+data.setCell(3, 3, 4990);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'contactFormSubmitValid')
-data.setCell(4, 2, 'test.CustomerSupportTest')
-data.setCell(4, 3, 0);
+data.setCell(4, 1, 'registerProvidedUser')
+data.setCell(4, 2, 'test.RegisterTests')
+data.setCell(4, 3, 4432);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'transferInsufficientBalance')
-data.setCell(5, 2, 'test.FundsTransferTest')
-data.setCell(5, 3, 0);
+data.setCell(5, 1, 'contactFormSubmitValid')
+data.setCell(5, 2, 'test.CustomerSupportTest')
+data.setCell(5, 3, 4265);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'validTransfer')
-data.setCell(6, 2, 'test.FundsTransferTest')
-data.setCell(6, 3, 0);
+data.setCell(6, 1, 'navigationAndLogo')
+data.setCell(6, 2, 'test.NavigationUITest')
+data.setCell(6, 3, 4223);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'navigationAndLogo')
-data.setCell(7, 2, 'test.NavigationUITest')
-data.setCell(7, 3, 0);
+data.setCell(7, 1, 'accountsOverviewAndTable')
+data.setCell(7, 2, 'test.AccountTest')
+data.setCell(7, 3, 3087);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'accountsOverviewAndTable')
-data.setCell(8, 2, 'test.AccountTest')
-data.setCell(8, 3, 0);
+data.setCell(8, 1, 'validLogin')
+data.setCell(8, 2, 'test.LoginTest')
+data.setCell(8, 3, 3077);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'invalidPassword')
-data.setCell(9, 2, 'test.LoginTest')
-data.setCell(9, 3, 0);
+data.setCell(9, 1, 'contactFormEmpty')
+data.setCell(9, 2, 'test.CustomerSupportTest')
+data.setCell(9, 3, 2522);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'registerProvidedUser')
-data.setCell(10, 2, 'test.RegisterTests')
-data.setCell(10, 3, 0);
+data.setCell(10, 1, 'invalidPassword')
+data.setCell(10, 2, 'test.LoginTest')
+data.setCell(10, 3, 2262);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'emptyFieldsLogin')
 data.setCell(11, 2, 'test.LoginTest')
-data.setCell(11, 3, 0);
+data.setCell(11, 3, 2079);
 window.suiteTableData['ParaBankSuite']= { tableData: data, tableDiv: 'times-div-ParaBankSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 ms</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-ParaBankSuite">
               </div> <!-- times-div-ParaBankSuite -->
             </div> <!-- times-div -->
@@ -514,27 +518,9 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">test.LoginTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">beforeSuite</span>
-                <br/>
-                <span class="ignored-method-name">afterSuite</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">test.AccountTest</span>
-              <div class="ignored-methods-div">
                 <span class="ignored-method-name">afterSuite</span>
                 <br/>
                 <span class="ignored-method-name">beforeSuite</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">test.NavigationUITest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">beforeSuite</span>
-                <br/>
-                <span class="ignored-method-name">afterSuite</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -544,6 +530,24 @@ return data;
                 <span class="ignored-method-name">beforeSuite</span>
                 <br/>
                 <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.AccountTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.NavigationUITest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -559,9 +563,9 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">test.LoanRequestTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">afterSuite</span>
-                <br/>
                 <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -578,102 +582,178 @@ return data;
                 <span class="method-name">beforeSuite</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void test.RegisterTests.registerProvidedUser())</span>
+                <span class="method-start">378 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerProvidedUser</span>
+                <span class="method-start">6782 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">tearDown([TestResult name=registerProvidedUser status=SKIP method=RegisterTests.registerProvidedUser()[pri:1,...)</span>
-                <span class="method-start">226 ms</span>
+                <span class="method-name">tearDown([TestResult name=registerProvidedUser status=SUCCESS method=RegisterTests.registerProvidedUser()[pri...)</span>
+                <span class="method-start">11218 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void test.LoginTest.validLogin())</span>
+                <span class="method-start">11487 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validLogin</span>
+                <span class="method-start">15585 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">tearDown([TestResult name=validLogin status=SKIP method=LoginTest.validLogin()[pri:2, instance:test.LoginTest...)</span>
-                <span class="method-start">236 ms</span>
+                <span class="method-name">tearDown([TestResult name=validLogin status=SUCCESS method=LoginTest.validLogin()[pri:2, instance:test.LoginT...)</span>
+                <span class="method-start">18663 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void test.LoginTest.invalidPassword())</span>
+                <span class="method-start">18851 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidPassword</span>
+                <span class="method-start">23310 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">tearDown([TestResult name=invalidPassword status=SKIP method=LoginTest.invalidPassword()[pri:3, instance:test...)</span>
-                <span class="method-start">241 ms</span>
+                <span class="method-name">tearDown([TestResult name=invalidPassword status=SUCCESS method=LoginTest.invalidPassword()[pri:3, instance:t...)</span>
+                <span class="method-start">25572 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void test.LoginTest.emptyFieldsLogin())</span>
+                <span class="method-start">25752 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emptyFieldsLogin</span>
+                <span class="method-start">29371 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">tearDown([TestResult name=emptyFieldsLogin status=SKIP method=LoginTest.emptyFieldsLogin()[pri:4, instance:te...)</span>
-                <span class="method-start">246 ms</span>
+                <span class="method-name">tearDown([TestResult name=emptyFieldsLogin status=SUCCESS method=LoginTest.emptyFieldsLogin()[pri:4, instance...)</span>
+                <span class="method-start">31451 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.AccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void test.AccountTest.accountsOverviewAndTable())</span>
+                <span class="method-start">31678 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">accountsOverviewAndTable</span>
+                <span class="method-start">35327 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">tearDown([TestResult name=accountsOverviewAndTable status=SKIP method=AccountTest.accountsOverviewAndTable()[...)</span>
-                <span class="method-start">249 ms</span>
+                <span class="method-name">tearDown([TestResult name=accountsOverviewAndTable status=SUCCESS method=AccountTest.accountsOverviewAndTable...)</span>
+                <span class="method-start">38414 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.FundsTransferTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void test.FundsTransferTest.validTransfer())</span>
+                <span class="method-start">38578 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">tearDown([TestResult name=validTransfer status=SKIP method=FundsTransferTest.validTransfer()[pri:6, instance:...)</span>
-                <span class="method-start">254 ms</span>
+                <span class="method-name">validTransfer</span>
+                <span class="method-start">42519 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=validTransfer status=FAILURE method=FundsTransferTest.validTransfer()[pri:6, instan...)</span>
+                <span class="method-start">56446 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void test.FundsTransferTest.transferInsufficientBalance())</span>
+                <span class="method-start">56911 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">tearDown([TestResult name=transferInsufficientBalance status=SKIP method=FundsTransferTest.transferInsufficie...)</span>
-                <span class="method-start">257 ms</span>
+                <span class="method-name">transferInsufficientBalance</span>
+                <span class="method-start">60521 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=transferInsufficientBalance status=FAILURE method=FundsTransferTest.transferInsuffi...)</span>
+                <span class="method-start">74060 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.LoanRequestTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void test.LoanRequestTest.requestLoanValid())</span>
+                <span class="method-start">74459 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">requestLoanValid</span>
+                <span class="method-start">80438 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">tearDown([TestResult name=requestLoanValid status=SKIP method=LoanRequestTest.requestLoanValid()[pri:8, insta...)</span>
-                <span class="method-start">262 ms</span>
+                <span class="method-name">tearDown([TestResult name=requestLoanValid status=SUCCESS method=LoanRequestTest.requestLoanValid()[pri:8, in...)</span>
+                <span class="method-start">85429 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void test.LoanRequestTest.requestLoanMissingInfo())</span>
+                <span class="method-start">87153 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">requestLoanMissingInfo</span>
+                <span class="method-start">91734 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">tearDown([TestResult name=requestLoanMissingInfo status=SKIP method=LoanRequestTest.requestLoanMissingInfo()[...)</span>
-                <span class="method-start">265 ms</span>
+                <span class="method-name">tearDown([TestResult name=requestLoanMissingInfo status=SUCCESS method=LoanRequestTest.requestLoanMissingInfo...)</span>
+                <span class="method-start">106185 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.CustomerSupportTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void test.CustomerSupportTest.contactFormSubmitValid())</span>
+                <span class="method-start">106425 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contactFormSubmitValid</span>
+                <span class="method-start">111672 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">tearDown([TestResult name=contactFormSubmitValid status=SKIP method=CustomerSupportTest.contactFormSubmitVali...)</span>
-                <span class="method-start">268 ms</span>
+                <span class="method-name">tearDown([TestResult name=contactFormSubmitValid status=SUCCESS method=CustomerSupportTest.contactFormSubmitV...)</span>
+                <span class="method-start">115938 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void test.CustomerSupportTest.contactFormEmpty())</span>
+                <span class="method-start">116140 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contactFormEmpty</span>
+                <span class="method-start">121024 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">tearDown([TestResult name=contactFormEmpty status=SKIP method=CustomerSupportTest.contactFormEmpty()[pri:11, ...)</span>
-                <span class="method-start">270 ms</span>
+                <span class="method-name">tearDown([TestResult name=contactFormEmpty status=SUCCESS method=CustomerSupportTest.contactFormEmpty()[pri:1...)</span>
+                <span class="method-start">123547 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.NavigationUITest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void test.NavigationUITest.navigationAndLogo())</span>
+                <span class="method-start">123718 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigationAndLogo</span>
+                <span class="method-start">127704 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">tearDown([TestResult name=navigationAndLogo status=SKIP method=NavigationUITest.navigationAndLogo()[pri:12, i...)</span>
-                <span class="method-start">273 ms</span>
+                <span class="method-name">tearDown([TestResult name=navigationAndLogo status=SUCCESS method=NavigationUITest.navigationAndLogo()[pri:12...)</span>
+                <span class="method-start">131928 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.RegisterTests</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">340 ms</span>
+                <span class="method-start">132224 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

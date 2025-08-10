@@ -3,45 +3,6 @@
 <suite name="Failed suite [ParaBankSuite]" verbose="0">
   <test thread-count="5" name="SequentialTests(failed)" verbose="0">
     <classes>
-      <class name="test.LoginTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
-          <include name="validLogin"/>
-          <include name="invalidPassword"/>
-          <include name="emptyFieldsLogin"/>
-        </methods>
-      </class> <!-- test.LoginTest -->
-      <class name="test.NavigationUITest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="navigationAndLogo"/>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
-        </methods>
-      </class> <!-- test.NavigationUITest -->
-      <class name="test.CustomerSupportTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
-          <include name="contactFormEmpty"/>
-          <include name="contactFormSubmitValid"/>
-        </methods>
-      </class> <!-- test.CustomerSupportTest -->
-      <class name="test.AccountTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="accountsOverviewAndTable"/>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
-        </methods>
-      </class> <!-- test.AccountTest -->
       <class name="test.FundsTransferTest">
         <methods>
           <include name="setUp"/>
@@ -52,25 +13,6 @@
           <include name="transferInsufficientBalance"/>
         </methods>
       </class> <!-- test.FundsTransferTest -->
-      <class name="test.RegisterTests">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="registerProvidedUser"/>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
-        </methods>
-      </class> <!-- test.RegisterTests -->
-      <class name="test.LoanRequestTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="requestLoanValid"/>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
-          <include name="requestLoanMissingInfo"/>
-        </methods>
-      </class> <!-- test.LoanRequestTest -->
     </classes>
   </test> <!-- SequentialTests(failed) -->
 </suite> <!-- Failed suite [ParaBankSuite] -->

@@ -1,11 +1,9 @@
 package test;
-
 import base.BaseTest;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import page.LoginPage;
 import page.LoanRequestPage;
+import page.LoginPage;
 import utils.WaitUtil;
 
 public class LoanRequestTest extends BaseTest {
@@ -26,9 +24,7 @@ public class LoanRequestTest extends BaseTest {
         lr.setAmount("5000");
         lr.setDownPayment("500");
 
-        // select first account
-        String acct = driver.findElement(By.id("fromAccountId")).getText().split("\n")[0].trim();
-        lr.selectFromAccount(acct);
+        lr.selectFirstFromAccount();
         lr.clickApply();
 
         String res = lr.getResult();
@@ -51,6 +47,7 @@ public class LoanRequestTest extends BaseTest {
         lr.open();
         lr.setAmount("");
         lr.setDownPayment("");
+        lr.selectFirstFromAccount();
         lr.clickApply();
 
         String res = lr.getResult();
